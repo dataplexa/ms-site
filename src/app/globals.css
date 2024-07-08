@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 14 15% 28%;
+
+    --primary: 14 15% 28%;
+    --secondary: 0 0% 100%;
+    --muted: 40 39% 95%;
+    --accent: 31 35% 59%;
+
+    --border: 33 46% 88%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .title {
+    @apply flex gap-1 items-center text-lg tracking-wider font-heading text-accent before:w-4 before:h-0.5 before:bg-accent before:inline-flex;
+  }
+
+  .title-center {
+    @apply flex flex-col gap-1 items-center text-lg tracking-wider font-heading text-accent before:w-0.5 before:h-4 before:bg-accent before:block;
+  }
+}
