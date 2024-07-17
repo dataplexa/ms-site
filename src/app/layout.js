@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { Oswald, Plus_Jakarta_Sans } from "next/font/google";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <MainLayout>
           {children}
         </MainLayout>
+        <Analytics />
       </body>
     </html>
   );
