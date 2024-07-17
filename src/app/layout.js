@@ -8,8 +8,8 @@ const oswald = Oswald({ subsets: ["latin"], variable: "--font-heading" });
 const sans = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-text" });
 
 export const metadata = {
-  title: "M2 Arquitetura",
-  description: "Contruindo sua visão, criando realidade",
+  title: "M² Arquitetura",
+  description: "M² | Contruindo sua visão, criando realidades",
 };
 
 export default function RootLayout({ children }) {

@@ -1021,97 +1021,6 @@ const projectsList = [
         category: "business",
     },
     {
-        title: "VR GAMES",
-        endpoint: "em-andamento-vr",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: vrgImages[4],
-        gallery: vrgImages,
-        category: "onGoing",
-    },
-    {
-        title: "ER",
-        endpoint: "em-andamento-er",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: erImages[5],
-        gallery: erImages,
-        category: "onGoing",
-    },
-    {
-        title: "LN",
-        endpoint: "em-andamento-ln",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: lnImages[11],
-        gallery: lnImages,
-        category: "onGoing",
-    },
-    {
-        title: "LR",
-        endpoint: "em-andamento-lr",
-        description: defaultOnGoingDescription,
-        showInHome: true,
-        coverImage: lrImages[22],
-        gallery: lrImages,
-        category: "onGoing",
-    },
-    {
-        title: "VV",
-        endpoint: "em-andamento-vv",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: vvImages[3],
-        gallery: vvImages,
-        category: "onGoing",
-    },
-    {
-        title: "CH",
-        endpoint: "em-andamento-ch",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: chImages[7],
-        gallery: chImages,
-        category: "onGoing",
-    },
-    {
-        title: "EM",
-        endpoint: "em-andamento-em",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: emImages[5],
-        gallery: emImages,
-        category: "onGoing",
-    },
-    {
-        title: "MM",
-        endpoint: "em-andamento-mm",
-        description: defaultOnGoingDescription,
-        showInHome: true,
-        coverImage: mmImages[9],
-        gallery: mmImages,
-        category: "onGoing",
-    },
-    {
-        title: "MD",
-        endpoint: "em-andamento-md",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: mdbvImages[5],
-        gallery: mdbvImages,
-        category: "onGoing",
-    },
-
-    {
-        title: "IN",
-        endpoint: "em-andamento-in",
-        description: defaultOnGoingDescription,
-        showInHome: false,
-        coverImage: inImages[6],
-        gallery: inImages,
-        category: "onGoing",
-    },
-    {
         title: "SA",
         endpoint: "residencial-sa",
         description: (
@@ -1591,115 +1500,98 @@ const projectsList = [
         gallery: csImages,
         category: "residential",
     },
-];
+    {
+        title: "VR GAMES",
+        endpoint: "em-andamento-vr",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: vrgImages[4],
+        gallery: vrgImages,
+        category: "onGoing",
+    },
+    {
+        title: "ER",
+        endpoint: "em-andamento-er",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: erImages[5],
+        gallery: erImages,
+        category: "onGoing",
+    },
+    {
+        title: "LN",
+        endpoint: "em-andamento-ln",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: lnImages[11],
+        gallery: lnImages,
+        category: "onGoing",
+    },
+    {
+        title: "LR",
+        endpoint: "em-andamento-lr",
+        description: defaultOnGoingDescription,
+        showInHome: true,
+        coverImage: lrImages[22],
+        gallery: lrImages,
+        category: "onGoing",
+    },
+    {
+        title: "VV",
+        endpoint: "em-andamento-vv",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: vvImages[3],
+        gallery: vvImages,
+        category: "onGoing",
+    },
+    {
+        title: "CH",
+        endpoint: "em-andamento-ch",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: chImages[7],
+        gallery: chImages,
+        category: "onGoing",
+    },
+    {
+        title: "EM",
+        endpoint: "em-andamento-em",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: emImages[5],
+        gallery: emImages,
+        category: "onGoing",
+    },
+    {
+        title: "MM",
+        endpoint: "em-andamento-mm",
+        description: defaultOnGoingDescription,
+        showInHome: true,
+        coverImage: mmImages[9],
+        gallery: mmImages,
+        category: "onGoing",
+    },
+    {
+        title: "MD",
+        endpoint: "em-andamento-md",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: mdbvImages[5],
+        gallery: mdbvImages,
+        category: "onGoing",
+    },
 
-const projectsListOld = [
     {
-        title: "Cafeteria Grand Coffee - Sanofi",
-        endpoint: "comercial-cafeteria-grand-coffee-sanofi",
-        description:
-            "Este projeto arquitetônico visa harmonizar funcionalidade e estética, garantindo espaços fluidos e inspiradores. Combinando elementos contemporâneos e sustentáveis, nossa equipe busca criar ambientes que transcendam expectativas, oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes. Nosso compromisso é com a excelência, garantindo que cada projeto seja entregue dentro do prazo, do orçamento e com a plena satisfação do cliente. Trabalhando em estreita colaboração com nossos clientes, buscamos proporcionar experiências únicas e duradouras através da arquitetura.",
-        emphasisContent: true,
-        coverImage: Cover1,
-        gallery: [
-            GalleryExample1,
-            GalleryExample2,
-            GalleryExample3,
-            GalleryExample1,
-            GalleryExample2,
-            GalleryExample3,
-            GalleryExample1,
-            GalleryExample2,
-            GalleryExample3,
-            GalleryExample1,
-            GalleryExample2,
-            GalleryExample3,
-        ],
-        category: "business",
-        locationType: "INTERIOR",
+        title: "IN",
+        endpoint: "em-andamento-in",
+        description: defaultOnGoingDescription,
+        showInHome: false,
+        coverImage: inImages[6],
+        gallery: inImages,
+        category: "onGoing",
     },
-    {
-        title: "Projeto 2",
-        endpoint: "comercial-projeto-2",
-        description: (
-            <>
-                Nosso escritório foi responsável pelo projeto conceitual e executivo,
-                bem como pela gestão integral da obra, desde a demolição completa até a
-                reconstrução. Acompanhamos de perto cada etapa, contando com uma equipe
-                dedicada que supervisionou tanto os serviços internos, como a remoção de
-                forros, instalações e marcenaria, quanto os serviços terceirizados,
-                incluindo elétrica, hidráulica, gesso, pintura, ar condicionado e
-                revestimentos, entre outros.
-                <br />
-                <br />
-                Durante o processo, realizamos uma significativa reestruturação do
-                layout, com destaque para a expansão da recepção e do consultório, a
-                reforma dos banheiros e a criação de um lounge de descanso e massagem,
-                proporcionando aos pacientes um ambiente acolhedor e tranquilo enquanto
-                aguardam os procedimentos. Além disso, aprimoramos a sala de anestesia
-                com novo mobiliário e design, aumentamos a capacidade de armazenamento
-                com a instalação de mais armários e readequamos a copa, tornando-a mais
-                funcional e agradável para os clientes.
-                <br />
-                <br />
-                Todas as áreas receberam melhorias, incluindo a substituição do piso,
-                forro, ar condicionado e toda a marcenaria, mantendo apenas a estrutura
-                original. Até mesmo as janelas, anteriormente pretas, foram modificadas
-                para combinar com a nova estética das paredes. O resultado final é um
-                espaço completamente renovado e adaptado às necessidades dos nossos
-                clientes e pacientes.
-            </>
-        ),
-        emphasisContent: true,
-        coverImage: Cover2,
-        gallery: [GalleryExample1, GalleryExample2, GalleryExample3],
-        category: "residential",
-        locationType: "INTERIOR",
-    },
-    {
-        title: "Projeto 3",
-        endpoint: "projeto-3",
-        description:
-            "Este projeto arquitetônico visa harmonizar funcionalidade e estética, garantindo espaços fluidos e inspiradores. Combinando elementos contemporâneos e sustentáveis, nossa equipe busca criar ambientes que transcendam expectativas, oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes. Nosso compromisso é com a excelência, garantindo que cada projeto seja entregue dentro do prazo, do orçamento e com a plena satisfação do cliente. Trabalhando em estreita colaboração com nossos clientes, buscamos proporcionar experiências únicas e duradouras através da arquitetura.",
-        emphasisContent: false,
-        coverImage: Cover3,
-        gallery: [GalleryExample1, GalleryExample2, GalleryExample3],
-        category: "residential",
-        locationType: "INTERIOR",
-    },
-    {
-        title: "Projeto 4",
-        endpoint: "projeto-4",
-        description:
-            "Este projeto arquitetônico visa harmonizar funcionalidade e estética, garantindo espaços fluidos e inspiradores. Combinando elementos contemporâneos e sustentáveis, nossa equipe busca criar ambientes que transcendam expectativas, oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes. Nosso compromisso é com a excelência, garantindo que cada projeto seja entregue dentro do prazo, do orçamento e com a plena satisfação do cliente. Trabalhando em estreita colaboração com nossos clientes, buscamos proporcionar experiências únicas e duradouras através da arquitetura.",
-        emphasisContent: true,
-        coverImage: Cover4,
-        gallery: [GalleryExample1, GalleryExample2, GalleryExample3],
-        category: "residential",
-        locationType: "EXTERIOR",
-    },
-    {
-        title: "Projeto 5",
-        endpoint: "projeto-5",
-        description:
-            "Este projeto arquitetônico visa harmonizar funcionalidade e estética, garantindo espaços fluidos e inspiradores. Combinando elementos contemporâneos e sustentáveis, nossa equipe busca criar ambientes que transcendam expectativas, oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes. Nosso compromisso é com a excelência, garantindo que cada projeto seja entregue dentro do prazo, do orçamento e com a plena satisfação do cliente. Trabalhando em estreita colaboração com nossos clientes, buscamos proporcionar experiências únicas e duradouras através da arquitetura.",
-        emphasisContent: false,
-        coverImage: Cover5,
-        gallery: [GalleryExample1, GalleryExample2, GalleryExample3],
-        category: "business",
-        locationType: "EXTERIOR",
-    },
-    {
-        title: "Projeto 6",
-        endpoint: "projeto-6",
-        description:
-            "Este projeto arquitetônico visa harmonizar funcionalidade e estética, garantindo espaços fluidos e inspiradores. Combinando elementos contemporâneos e sustentáveis, nossa equipe busca criar ambientes que transcendam expectativas, oferecendo soluções inovadoras e adaptáveis às necessidades dos clientes. Nosso compromisso é com a excelência, garantindo que cada projeto seja entregue dentro do prazo, do orçamento e com a plena satisfação do cliente. Trabalhando em estreita colaboração com nossos clientes, buscamos proporcionar experiências únicas e duradouras através da arquitetura.",
-        emphasisContent: false,
-        coverImage: Cover1,
-        gallery: [GalleryExample1, GalleryExample2, GalleryExample3],
-        category: "business",
-        locationType: "EXTERIOR",
-    },
+
 ];
 
 export default projectsList;

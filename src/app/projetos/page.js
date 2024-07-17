@@ -2,8 +2,8 @@ import React from "react";
 import Projects from "./projects";
 
 export const metadata = {
-  title: "M2 Arquitetura | Projetos",
-  description: "Portfólio de Projetos",
+  title: "M² Arquitetura | Projetos",
+  description: "M² | Portfólio de Projetos",
 };
 
 const Projetos = () => {

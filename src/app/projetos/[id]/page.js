@@ -6,8 +6,15 @@ export function generateMetadata({ params }) {
     (project) => params.id === project.endpoint
   );
 
+  const categoryMap = {
+    business: "Comercial",
+    residential: "Residencial",
+    onGoing: "Em andamento",
+  }
+
   return {
-    title: `Projetos | ${project.title}`,
+    title: `M² | Projetos - ${project.title}`,
+    description: `M² Arquitetura | Categoria de projeto: ${categoryMap[project.category]}`,
   }
 }
 

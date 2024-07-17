@@ -32,7 +32,7 @@ export function ProjectCard({ title, endpoint, coverImage, category }) {
           width={403}
           height={670}
           quality={100}
-          className="object-fill w-full h-[460px] sm:h-[670px] col-start-1 col-end-3 row-start-1 row-end-3"
+          className="object-cover w-full h-[460px] sm:h-[670px] col-start-1 col-end-3 row-start-1 row-end-3"
         />
 
         <div className="flex flex-col justify-end w-full col-start-1 col-end-3 row-start-1 row-end-3 transition-all duration-500 sm:opacity-0 bg-gradient-to-b from-black/10 to-black/90 group-hover:opacity-100 group-focus-within:opacity-100">

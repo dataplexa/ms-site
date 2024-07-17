@@ -179,7 +179,7 @@ export default function Home() {
                   .map((project, index) => (
                     <CarouselItem
                       key={index}
-                      className="relative pl-0 sm:basis-1/2 lg:basis-1/4"
+                      className="relative pl-0 sm:basis-1/2 lg:basis-1/3"
                     >
                       <ProjectCard
                         category={project.category}
